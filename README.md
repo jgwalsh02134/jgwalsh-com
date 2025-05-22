@@ -47,3 +47,16 @@ To set up this project on your local machine:
 ```bash
 git clone https://github.com/jgwalsh02134/jgwalsh-com.git
 cd jgwalsh-com
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the test build
+
+```bash
+npm run test
+```
