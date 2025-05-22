@@ -47,3 +47,49 @@ To set up this project on your local machine:
 ```bash
 git clone https://github.com/jgwalsh02134/jgwalsh-com.git
 cd jgwalsh-com
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the test build
+
+```bash
+npm run test
+```
+
+---
+
+## Continuing the Pull Request
+
+To continue the pull request, follow these steps:
+
+1. **Review Changes:**
+   - Review the changes made in the pull request to understand the modifications and their impact on the project.
+
+2. **Run Tests:**
+   - Ensure that all tests pass by running the following command:
+     ```bash
+     npm run test
+     ```
+
+3. **Make Updates:**
+   - If necessary, make additional updates or modifications to the codebase.
+
+4. **Push Updates:**
+   - Commit your changes and push them to the pull request branch:
+     ```bash
+     git add .
+     git commit -m "Update pull request"
+     git push origin <branch-name>
+     ```
+
+5. **Request Review:**
+   - Request a review from the project maintainers to get feedback on your changes.
+
+6. **Merge Pull Request:**
+   - Once the pull request is approved, merge it into the main branch.
+
