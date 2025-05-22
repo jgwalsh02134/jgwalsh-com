@@ -3,6 +3,10 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/jgwalsh-com/', // <-- set this if deploying to GitHub Pages
-  plugins: [react()],
+  base: '/jgwalsh-com/',
+  server: {
+    host: true,
+    port: 4173
+  },
+  plugins: [react()]
 })
